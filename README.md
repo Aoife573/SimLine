@@ -1,6 +1,6 @@
 In the example (HD110058_C) we fit CI absorption lines in the edge-on debris disk orbiting HD110058. The data was observed by HST in the UV using the STIS instrument in combination with either the E140H or the E230H grating. The example demonstrates the following steps:
 
-1 - Extracting Relevant Data: Extract the desired absorption lines from the HST FITS files containing observations made using the STIS instrument with either the E140H or the E230H grating.
+1 - Extracting Relevant Data: Extract the desired absorption lines from the HST FITS files containing observations made using the STIS instrument with either the E140H or the E230H grating.\\
 2 - Continuum Fitting and Normalization: Fit the line-free regions of the continuum around the absorption lines, and normalize the spectrum.
 3 - PSF Kernel Creation: Create a custom kernel that incorporates the spectral response of the instrument used (Point Spread Function or PSF).
 4 - Simulate Absorption Lines: Simulate absorption lines using information from a line list database such as NIST, MOLAT, or LAMBDA.

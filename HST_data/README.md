@@ -1,1 +1,1 @@
-Three of the files (oe4v08030, oe4v08020, oe4v08010) were observed using the E140H gratine covering the CI triplet at 1613 that is fitted in the example. The other file (oev10030) was observed using the E230H grtaing and covers the CI doublet at 2960 that is fitted in the example.
+Three of the files (oe4v08030, oe4v08020, oe4v08010) were observed using the E140H grating covering the CI triplet at 1613 that is fitted in the example. The other file (oev10030) was observed using the E230H grating and covers the CI doublet at 2960 that is fitted in the example.

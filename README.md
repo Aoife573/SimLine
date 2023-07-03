@@ -6,10 +6,10 @@ This example demonstrates fitting CI absorption lines in the edge-on debris disk
 
 2. **Continuum Fitting and Normalization:** Fit the line-free regions of the continuum around the absorption lines, and normalize the spectrum.
 
-3. **PSF Kernel Creation:** Create a custom kernel that incorporates the spectral response of the instrument used (Point Spread Function or PSF).
+3. **LSF Kernel Creation:** Create a custom kernel that incorporates the spectral response of the instrument used (Line Spread Function).
 
 4. **Simulate Absorption Lines:** Simulate absorption lines using information from a line list database such as NIST, MOLAT, or LAMBDA.
 
 5. **Bayesian MCMC Fitting:** Fit the simulated absorption lines to the observed lines in the normalized HST spectrum using a Bayesian Markov Chain Monte Carlo (MCMC) approach.
 
-The repository includes the HST data files and PSF files necessary for running the example. The code works well on a single core when fitting only a few transitions. If fitting multiple bands or numerous transitions, a more robust function for simulating absorption lines will be added to the repository in the near future.
+The repository includes the HST data files and lSF files necessary for running the example. The code works well on a single core when fitting only a few transitions. If fitting multiple bands or numerous transitions, a more robust function for simulating absorption lines will be added to the repository in the near future.
